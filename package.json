@@ -1,0 +1,32 @@
+{
+  "name": "cosmos-ccl-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && tsc-esm-fix --target=dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cosmjs/amino": "^0.32.3",
+    "@cosmjs/cosmwasm-stargate": "^0.32.3",
+    "@solar-republic/contractor": "^0.8.17",
+    "@types/node": "^20.14.13",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "tsc-esm-fix": "^3.0.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@cosmjs/crypto": "^0.32.3",
+    "@cosmjs/encoding": "^0.32.3",
+    "@noble/hashes": "^1.4.0",
+    "@solar-republic/neutrino": "^1.4.5",
+    "cosmjs-types": "^0.9.0",
+    "dotenv": "^16.4.5",
+    "secretjs": "^1.15.1"
+  }
+}

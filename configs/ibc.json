@@ -1,0 +1,5 @@
+{
+    "secret_channel_id": "channel-1",
+    "consumer_channel_id": "channel-88",
+    "ibc_denom": "ibc/19f40553b5a6948aa6bdef18bff71bf782008f68e03d39f2e6d5b822ba729deb"
+}

@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+
+# Text file backups
+**/*.rs.bk
+
+# Build results
+target/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+.env
+
+# User-gen
+metadata.csv
+
+# ENV
+# .env
+.env.dev
+
+# Auto-gen
+.cargo-ok
+
+# Build artifacts
+*.wasm
+hash.txt
+contracts.txt
+artifacts/
+
+# code coverage
+tarpaulin-report.*
+
+# integration tests
+tests/gas_reports/*
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+configs/*_back.json
