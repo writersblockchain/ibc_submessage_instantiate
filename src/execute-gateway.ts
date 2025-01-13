@@ -25,7 +25,7 @@ const instantiateContract = async () => {
         ibcConfig.consumer_channel_id,
         gatewayHookMemo(
             { extension: { msg: { instantiate: { 
-                code_id: 12986, 
+                code_id: 2123, 
                 code_hash: "138c4984186458a1ea7887dd271295f8f2547fc381d8991c780fdd2eb2f6ee73"
              } } }},
             secretGateway
